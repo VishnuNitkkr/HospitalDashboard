@@ -12,7 +12,7 @@ const Doctors = () => {
     const fetchDoctors = async () => {
       try {
         const { data } = await axios.get(
-          "https://hospital-backend-beige.vercel.app/api/v1/user/doctors",
+          "https://hospitalbackend-ykh8.onrender.com/api/v1/user/doctors",
           {
             withCredentials: true,
             headers: {

@@ -27,7 +27,7 @@ const App = () => {
     const fetchUser = async () => {
       try {
         const response = await axios.get(
-          "https://hospital-backend-beige.vercel.app/api/v1/user/admin/me",
+          "https://hospitalbackend-ykh8.onrender.com/api/v1/user/admin/me",
           {
             withCredentials: true,
             headers: {

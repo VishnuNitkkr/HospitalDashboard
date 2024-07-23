@@ -13,7 +13,7 @@ const Dashboard = () => {
     const fetchAppointments = async () => {
       try {
         const { data } = await axios.get(
-          "https://hospital-backend-beige.vercel.app/api/v1/appointment/getall",
+          "https://hospitalbackend-ykh8.onrender.com/api/v1/appointment/getall",
           { withCredentials:true,
         headers:{
           "Content-Type":"application/json"
@@ -30,7 +30,7 @@ const Dashboard = () => {
   const handleUpdateStatus = async (appointmentId, status) => {
     try {
       const { data } = await axios.put(
-        `https://hospital-backend-beige.vercel.app/api/v1/appointment/update/${appointmentId}`,
+        `https://hospitalbackend-ykh8.onrender.com/api/v1/appointment/update/${appointmentId}`,
         { status },
         { withCredentials: true }
       );

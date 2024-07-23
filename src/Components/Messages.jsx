@@ -11,7 +11,7 @@ const Messages = () => {
     const fetchMessages = async () => {
       try {
         const { data } = await axios.get(
-          "https://hospital-backend-beige.vercel.app/api/v1/message/getall",
+          "https://hospitalbackend-ykh8.onrender.com/api/v1/message/getall",
           {
             withCredentials: true,
             headers: {
