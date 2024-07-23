@@ -59,7 +59,7 @@ const AddNewDoctor = () => {
       formData.append("docAvatarPreview", docAvatarPreview);
 
       const response = await axios.post(
-        "https://hospital-management-backend-6v1yozd41-jadhavmanoj2023s-projects.vercel.app/api/v1/user/doctor/addnew",
+        "https://hospital-backend-beige.vercel.app/api/v1/user/doctor/addnew",
         formData,
         {
           withCredentials: true,
