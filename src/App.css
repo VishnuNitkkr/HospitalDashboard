@@ -379,6 +379,7 @@ body {
 
 @media (max-width: 1208px) {
   .sidebar {
+    display: block;
     background: #3939d9f2;
     left: -100%;
     transition: 0.3s;
