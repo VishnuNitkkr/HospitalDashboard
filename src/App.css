@@ -407,6 +407,9 @@ body {
   }
 }
 @media (max-width: 485px) {
+  .sidebar{
+    display: block;
+  }
   .wrapper {
     left: 20px;
   }
@@ -573,4 +576,9 @@ input[type="time"]:before {
   content: attr(placeholder);
   color: #444;
   margin-right: 0.5em;
+}
+
+.DocImage{
+  display: flex;
+  flex-direction: column;
 }

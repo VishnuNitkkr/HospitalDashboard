@@ -83,7 +83,7 @@ const AddNewDoctor = () => {
         <h1 className="form-title">REGISTER A NEW DOCTOR</h1>
         <form onSubmit={handleAddNewdoctor}>
           <div className="first-wrapper">
-            <div>
+            <div className="DocImage">
               <img
                 src={
                   docAvatarPreview ? `${docAvatarPreview}` : "/docHolder.jpg"
