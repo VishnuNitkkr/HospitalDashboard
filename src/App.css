@@ -407,9 +407,6 @@ body {
   }
 }
 @media (max-width: 485px) {
-  .sidebar{
-    display: block;
-  }
   .wrapper {
     left: 20px;
   }
