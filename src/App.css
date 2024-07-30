@@ -384,7 +384,7 @@ body {
     transition: 0.3s;
   }
   .show {
-    left: 0;
+    left: 20px;
     transition: 0.3s;
   }
   .wrapper {
@@ -407,6 +407,9 @@ body {
   }
 }
 @media (max-width: 485px) {
+  .sidebar{
+    display: block;
+  }
   .wrapper {
     left: 20px;
   }
