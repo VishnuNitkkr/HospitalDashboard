@@ -41,6 +41,7 @@ const Login = () => {
         <img src="/logo.png" alt="logo" />
         <h1 className="form-title">Welcome To Yashoda Hospitals</h1>
         <p>Only Admins are allowed to aacess these resources</p>
+        <p>Use default username: <span className="defaultUser">mamoj@manoj.com</span>and default password: <span className="defaultUser">12345678</span></p>
         <form onSubmit={handleLogin}>
           <input
             type="text"

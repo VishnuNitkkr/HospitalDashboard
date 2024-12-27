@@ -583,3 +583,8 @@ input[type="time"]:before {
   display: flex;
   flex-direction: column;
 }
+
+.defaultUser{
+  color: red;
+  
+}
