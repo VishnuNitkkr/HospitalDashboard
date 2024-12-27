@@ -39,7 +39,7 @@ const Login = () => {
     <>
       <div className="container form-component ">
         <img src="/logo.png" alt="logo" />
-        <h1 className="form-title">Welcome To Zeecare</h1>
+        <h1 className="form-title">Welcome To Yashoda Hospitals</h1>
         <p>Only Admins are allowed to aacess these resources</p>
         <form onSubmit={handleLogin}>
           <input
